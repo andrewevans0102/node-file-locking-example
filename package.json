@@ -1,0 +1,15 @@
+{
+    "name": "file-locking-example",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "node programs/first.js & node programs/second.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "proper-lockfile": "^4.1.2"
+    }
+}
